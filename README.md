@@ -13,7 +13,7 @@ Test set: 20% holdout (`random_state=42`). Tuned models use GridSearchCV with 3-
 
 - Best model: tuned XGBoost (R² 0.93, MAE about $14.5K)
 - Tuning helped XGBoost but slightly lowered Random Forest and LightGBM test R², so their default settings were already near their best for this data
-- Applied SHAP to explain individual predictions and identify top price drivers (Overall Quality, Gr Liv Area, Neighborhood)
+- Applied SHAP to explain individual predictions and identify top price drivers (Overall Quality, Gr Liv Area, Year Built)
 
 ## Tools & Libraries
 - Python, Pandas, Scikit-learn, XGBoost, LightGBM
